@@ -1,9 +1,7 @@
-//
-//  ContentView.swift
-//  ToBuy
-//
-//  Created by Luca Bohlen on 12.05.21.
-//
+//  ETML
+//  Author : Luca Bohlen
+//  Date : 12.05.2021
+//  Description : The content view of an object is the default superview for content that the cell displays
 
 import SwiftUI
 

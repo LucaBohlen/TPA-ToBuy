@@ -1,9 +1,7 @@
-//
-//  SceneDelegate.swift
-//  ToBuy
-//
-//  Created by Luca Bohlen on 12.05.21.
-//
+//  ETML
+//  Author : Luca Bohlen
+//  Date : 12.05.2021
+//  Description : The SceneDelegate will be responsible for what is shown on the screen handle and manage the way to the app is shown.
 
 import UIKit
 import SwiftUI

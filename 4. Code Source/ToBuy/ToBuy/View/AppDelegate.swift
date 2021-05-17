@@ -1,9 +1,8 @@
-//
-//  AppDelegate.swift
-//  ToBuy
-//
-//  Created by Luca Bohlen on 12.05.21.
-//
+//  ETML
+//  Author : Luca Bohlen
+//  Date : 12.05.2021
+//  Description : The app delegate is effectively the root object of the app, and it works in conjunction with UIApplication to manage some interactions with the system
+
 
 import UIKit
 

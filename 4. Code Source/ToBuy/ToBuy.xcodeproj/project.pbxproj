@@ -15,8 +15,6 @@
 		B11BC60E264BC662001810A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11BC60D264BC662001810A6 /* Preview Assets.xcassets */; };
 		B1523BCD26554ABC00E9CDA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1523BCB26554ABC00E9CDA5 /* LaunchScreen.storyboard */; };
 		B1523BD026554AC300E9CDA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1523BCE26554AC300E9CDA5 /* Main.storyboard */; };
-		B1523BDA26554BDB00E9CDA5 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1523BD826554BDB00E9CDA5 /* ItemTableViewCell.swift */; };
-		B1523BDB26554BDB00E9CDA5 /* ShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1523BD926554BDB00E9CDA5 /* ShopCollectionViewCell.swift */; };
 		B1523BDD265633A400E9CDA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1523BDC265633A400E9CDA5 /* AppDelegate.swift */; };
 		B1523BDF265633CB00E9CDA5 /* AddGroceriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1523BDE265633CB00E9CDA5 /* AddGroceriesViewController.swift */; };
 		B1523BE1265633FA00E9CDA5 /* ShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1523BE0265633FA00E9CDA5 /* ShopsViewController.swift */; };
@@ -33,8 +31,6 @@
 		B11BC612264BC662001810A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1523BCC26554ABC00E9CDA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		B1523BCF26554AC300E9CDA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		B1523BD826554BDB00E9CDA5 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemTableViewCell.swift; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Cells/ItemTableViewCell.swift"; sourceTree = "<group>"; };
-		B1523BD926554BDB00E9CDA5 /* ShopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopCollectionViewCell.swift; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Cells/ShopCollectionViewCell.swift"; sourceTree = "<group>"; };
 		B1523BDC265633A400E9CDA5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../../Downloads/AppDelegate.swift; sourceTree = "<group>"; };
 		B1523BDE265633CB00E9CDA5 /* AddGroceriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddGroceriesViewController.swift; path = ../../../../../../Downloads/AddGroceriesViewController.swift; sourceTree = "<group>"; };
 		B1523BE0265633FA00E9CDA5 /* ShopsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopsViewController.swift; path = ../../../../../../.Trash/ShopsViewController.swift; sourceTree = "<group>"; };
@@ -88,7 +84,6 @@
 				B1688C102652401000B45D20 /* Controller */,
 				B1688C0F2652400700B45D20 /* Model */,
 				B1688C0E26523FCF00B45D20 /* View */,
-				B1523BD726554BC800E9CDA5 /* Cases */,
 				B11BC60C264BC662001810A6 /* Preview Content */,
 			);
 			path = ToBuy;
@@ -102,15 +97,6 @@
 				B11BC612264BC662001810A6 /* Info.plist */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B1523BD726554BC800E9CDA5 /* Cases */ = {
-			isa = PBXGroup;
-			children = (
-				B1523BD826554BDB00E9CDA5 /* ItemTableViewCell.swift */,
-				B1523BD926554BDB00E9CDA5 /* ShopCollectionViewCell.swift */,
-			);
-			path = Cases;
 			sourceTree = "<group>";
 		};
 		B1688C0E26523FCF00B45D20 /* View */ = {
@@ -266,11 +252,9 @@
 			files = (
 				B1523BE1265633FA00E9CDA5 /* ShopsViewController.swift in Sources */,
 				B1523BDD265633A400E9CDA5 /* AppDelegate.swift in Sources */,
-				B1523BDB26554BDB00E9CDA5 /* ShopCollectionViewCell.swift in Sources */,
 				B1523BDF265633CB00E9CDA5 /* AddGroceriesViewController.swift in Sources */,
 				B11BC605264BC65F001810A6 /* AppDelegate.swift in Sources */,
 				B11BC607264BC65F001810A6 /* SceneDelegate.swift in Sources */,
-				B1523BDA26554BDB00E9CDA5 /* ItemTableViewCell.swift in Sources */,
 				B11BC609264BC65F001810A6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

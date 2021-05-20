@@ -18,6 +18,8 @@
 		B1523BDD265633A400E9CDA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1523BDC265633A400E9CDA5 /* AppDelegate.swift */; };
 		B1523BDF265633CB00E9CDA5 /* AddGroceriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1523BDE265633CB00E9CDA5 /* AddGroceriesViewController.swift */; };
 		B1523BE1265633FA00E9CDA5 /* ShopsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1523BE0265633FA00E9CDA5 /* ShopsViewController.swift */; };
+		B1523BE52656368C00E9CDA5 /* ShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1523BE32656368C00E9CDA5 /* ShopCollectionViewCell.swift */; };
+		B1523BE62656368C00E9CDA5 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1523BE42656368C00E9CDA5 /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		B1523BDC265633A400E9CDA5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../../Downloads/AppDelegate.swift; sourceTree = "<group>"; };
 		B1523BDE265633CB00E9CDA5 /* AddGroceriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddGroceriesViewController.swift; path = ../../../../../../Downloads/AddGroceriesViewController.swift; sourceTree = "<group>"; };
 		B1523BE0265633FA00E9CDA5 /* ShopsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopsViewController.swift; path = ../../../../../../.Trash/ShopsViewController.swift; sourceTree = "<group>"; };
+		B1523BE32656368C00E9CDA5 /* ShopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopCollectionViewCell.swift; path = ../../../../../Downloads/ShopCollectionViewCell.swift; sourceTree = "<group>"; };
+		B1523BE42656368C00E9CDA5 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemTableViewCell.swift; path = ../../../../../Downloads/ItemTableViewCell.swift; sourceTree = "<group>"; };
 		BBD044940C4E043684E23714 /* Pods-ToBuy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToBuy.release.xcconfig"; path = "Target Support Files/Pods-ToBuy/Pods-ToBuy.release.xcconfig"; sourceTree = "<group>"; };
 		DD22BECF2F9ECB34F6B9493A /* Pods-ToBuy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToBuy.debug.xcconfig"; path = "Target Support Files/Pods-ToBuy/Pods-ToBuy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +65,7 @@
 		B11BC5F8264BC65F001810A6 = {
 			isa = PBXGroup;
 			children = (
+				B1523BE22656362900E9CDA5 /* Cases */,
 				B11BC603264BC65F001810A6 /* ToBuy */,
 				B11BC602264BC65F001810A6 /* Products */,
 				D4D6C96CA891A995C68DBF63 /* Pods */,
@@ -97,6 +102,15 @@
 				B11BC612264BC662001810A6 /* Info.plist */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1523BE22656362900E9CDA5 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				B1523BE42656368C00E9CDA5 /* ItemTableViewCell.swift */,
+				B1523BE32656368C00E9CDA5 /* ShopCollectionViewCell.swift */,
+			);
+			path = Cases;
 			sourceTree = "<group>";
 		};
 		B1688C0E26523FCF00B45D20 /* View */ = {
@@ -252,7 +266,9 @@
 			files = (
 				B1523BE1265633FA00E9CDA5 /* ShopsViewController.swift in Sources */,
 				B1523BDD265633A400E9CDA5 /* AppDelegate.swift in Sources */,
+				B1523BE52656368C00E9CDA5 /* ShopCollectionViewCell.swift in Sources */,
 				B1523BDF265633CB00E9CDA5 /* AddGroceriesViewController.swift in Sources */,
+				B1523BE62656368C00E9CDA5 /* ItemTableViewCell.swift in Sources */,
 				B11BC605264BC65F001810A6 /* AppDelegate.swift in Sources */,
 				B11BC607264BC65F001810A6 /* SceneDelegate.swift in Sources */,
 				B11BC609264BC65F001810A6 /* ContentView.swift in Sources */,

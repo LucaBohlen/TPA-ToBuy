@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4EECC0BD45AAAA7088A33F02 /* Pods_ToBuy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0D2B91255C768DC36CE1DC /* Pods_ToBuy.framework */; };
+		B110940C2657EFF100FD3143 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11094072657EFF100FD3143 /* Shop.swift */; };
+		B110940D2657EFF100FD3143 /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11094082657EFF100FD3143 /* Public.swift */; };
+		B110940E2657EFF100FD3143 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11094092657EFF100FD3143 /* Networking.swift */; };
+		B110940F2657EFF100FD3143 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B110940A2657EFF100FD3143 /* ShoppingList.swift */; };
+		B11094102657EFF100FD3143 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B110940B2657EFF100FD3143 /* User.swift */; };
 		B11BC605264BC65F001810A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11BC604264BC65F001810A6 /* AppDelegate.swift */; };
 		B11BC607264BC65F001810A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11BC606264BC65F001810A6 /* SceneDelegate.swift */; };
 		B11BC609264BC65F001810A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11BC608264BC65F001810A6 /* ContentView.swift */; };
@@ -22,10 +27,17 @@
 		B1ED09AD26569CBC00C1B889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1ED09AB26569CBC00C1B889 /* Main.storyboard */; };
 		B1ED09B326569D7F00C1B889 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ED09B226569D7F00C1B889 /* LoginViewController.swift */; };
 		B1ED09B526569D9900C1B889 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ED09B426569D9900C1B889 /* SignUpViewController.swift */; };
+		B1ED09B72656A18000C1B889 /* GroceryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ED09B62656A18000C1B889 /* GroceryListViewController.swift */; };
+		B1ED09B92657EF6100C1B889 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ED09B82657EF6100C1B889 /* InitialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D0D2B91255C768DC36CE1DC /* Pods_ToBuy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToBuy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11094072657EFF100FD3143 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shop.swift; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Model/Shop.swift"; sourceTree = "<group>"; };
+		B11094082657EFF100FD3143 /* Public.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Public.swift; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Model/Public.swift"; sourceTree = "<group>"; };
+		B11094092657EFF100FD3143 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Model/Networking.swift"; sourceTree = "<group>"; };
+		B110940A2657EFF100FD3143 /* ShoppingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShoppingList.swift; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Model/ShoppingList.swift"; sourceTree = "<group>"; };
+		B110940B2657EFF100FD3143 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Model/User.swift"; sourceTree = "<group>"; };
 		B11BC601264BC65F001810A6 /* ToBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11BC604264BC65F001810A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B11BC606264BC65F001810A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +54,8 @@
 		B1ED09AC26569CBC00C1B889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		B1ED09B226569D7F00C1B889 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../../../.Trash/LoginViewController.swift; sourceTree = "<group>"; };
 		B1ED09B426569D9900C1B889 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Controllers/SignUpViewController.swift"; sourceTree = "<group>"; };
+		B1ED09B62656A18000C1B889 /* GroceryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroceryListViewController.swift; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Controllers/GroceryListViewController.swift"; sourceTree = "<group>"; };
+		B1ED09B82657EF6100C1B889 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitialViewController.swift; path = "../../../../../../Downloads/version/1/ToBuy-main/ToBuy/Controllers/InitialViewController.swift"; sourceTree = "<group>"; };
 		BBD044940C4E043684E23714 /* Pods-ToBuy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToBuy.release.xcconfig"; path = "Target Support Files/Pods-ToBuy/Pods-ToBuy.release.xcconfig"; sourceTree = "<group>"; };
 		DD22BECF2F9ECB34F6B9493A /* Pods-ToBuy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToBuy.debug.xcconfig"; path = "Target Support Files/Pods-ToBuy/Pods-ToBuy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +106,8 @@
 				B1523BDC265633A400E9CDA5 /* AppDelegate.swift */,
 				B1688C102652401000B45D20 /* Controller */,
 				B1688C0F2652400700B45D20 /* Model */,
+				B1ED09AB26569CBC00C1B889 /* Main.storyboard */,
+				B1523BCB26554ABC00E9CDA5 /* LaunchScreen.storyboard */,
 				B1688C0E26523FCF00B45D20 /* View */,
 				B11BC60C264BC662001810A6 /* Preview Content */,
 			);
@@ -129,8 +145,11 @@
 		B1688C0F2652400700B45D20 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B1ED09AB26569CBC00C1B889 /* Main.storyboard */,
-				B1523BCB26554ABC00E9CDA5 /* LaunchScreen.storyboard */,
+				B11094092657EFF100FD3143 /* Networking.swift */,
+				B11094082657EFF100FD3143 /* Public.swift */,
+				B11094072657EFF100FD3143 /* Shop.swift */,
+				B110940A2657EFF100FD3143 /* ShoppingList.swift */,
+				B110940B2657EFF100FD3143 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,7 +159,9 @@
 			children = (
 				B1523BDE265633CB00E9CDA5 /* AddGroceriesViewController.swift */,
 				B1ED09B226569D7F00C1B889 /* LoginViewController.swift */,
+				B1ED09B82657EF6100C1B889 /* InitialViewController.swift */,
 				B1ED09B426569D9900C1B889 /* SignUpViewController.swift */,
+				B1ED09B62656A18000C1B889 /* GroceryListViewController.swift */,
 				B1523BE0265633FA00E9CDA5 /* ShopsViewController.swift */,
 			);
 			path = Controller;
@@ -271,11 +292,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1ED09B326569D7F00C1B889 /* LoginViewController.swift in Sources */,
+				B110940F2657EFF100FD3143 /* ShoppingList.swift in Sources */,
 				B1523BE1265633FA00E9CDA5 /* ShopsViewController.swift in Sources */,
 				B1523BDD265633A400E9CDA5 /* AppDelegate.swift in Sources */,
+				B1ED09B92657EF6100C1B889 /* InitialViewController.swift in Sources */,
+				B110940D2657EFF100FD3143 /* Public.swift in Sources */,
 				B1523BE52656368C00E9CDA5 /* ShopCollectionViewCell.swift in Sources */,
+				B11094102657EFF100FD3143 /* User.swift in Sources */,
+				B110940E2657EFF100FD3143 /* Networking.swift in Sources */,
 				B1ED09B526569D9900C1B889 /* SignUpViewController.swift in Sources */,
+				B1ED09B72656A18000C1B889 /* GroceryListViewController.swift in Sources */,
 				B1523BDF265633CB00E9CDA5 /* AddGroceriesViewController.swift in Sources */,
+				B110940C2657EFF100FD3143 /* Shop.swift in Sources */,
 				B1523BE62656368C00E9CDA5 /* ItemTableViewCell.swift in Sources */,
 				B11BC605264BC65F001810A6 /* AppDelegate.swift in Sources */,
 				B11BC607264BC65F001810A6 /* SceneDelegate.swift in Sources */,

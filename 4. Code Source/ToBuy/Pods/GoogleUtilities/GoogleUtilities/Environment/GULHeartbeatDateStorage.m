@@ -101,11 +101,7 @@ NSString *const kGULHeartbeatStorageDirectory = @"Google/FIRApp";
                                           heartbeatDictionary =
                                               [self heartbeatDictionaryWithFileURL:readingURL];
                                         }];
-  NSDate *heartbeatDate = heartbeatDictionary[tag];
-  if (![heartbeatDate isKindOfClass:[NSDate class]]) {
-    return nil;
-  }
-  return heartbeatDate;
+  return heartbeatDictionary[tag];
 }
 
 - (BOOL)setHearbeatDate:(NSDate *)date forTag:(NSString *)tag {
@@ -122,7 +118,7 @@ NSString *const kGULHeartbeatStorageDirectory = @"Google/FIRApp";
                             [[self heartbeatDictionaryWithFileURL:readingURL] mutableCopy];
                         heartbeatDictionary[tag] = date;
                         NSError *error;
-                        isSuccess = [self writeDictionary:[heartbeatDictionary copy]
+                        isSuccess = [self writeDictionary:heartbeatDictionary.copy
                                             forWritingURL:writingURL
                                                     error:&error];
                       }];
@@ -152,11 +148,7 @@ NSString *const kGULHeartbeatStorageDirectory = @"Google/FIRApp";
 - (BOOL)writeDictionary:(NSDictionary *)dictionary
           forWritingURL:(NSURL *)writingFileURL
                   error:(NSError **)outError {
-  // Archive a mutable copy `dictionary` for writing to disk. This is done for
-  // backwards compatibility. See Google Utilities issue #36 for more context.
-  // TODO: Remove usage of mutable copy in a future version of Google Utilities.
-  NSData *data = [GULSecureCoding archivedDataWithRootObject:[dictionary mutableCopy]
-                                                       error:outError];
+  NSData *data = [GULSecureCoding archivedDataWithRootObject:dictionary error:outError];
   if (data.length == 0) {
     return NO;
   }
